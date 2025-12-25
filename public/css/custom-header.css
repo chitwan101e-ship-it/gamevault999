@@ -1,0 +1,252 @@
+/* Custom Header Layout Fixes - Logo Alignment Only */
+/* Logo Section - Left Side */
+.brand-logo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.brand-logo .logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+/* Header Menu Part - Right Side */
+.header-menu-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 0;
+}
+
+/* Header Top Section */
+.header-top {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .header-top {
+        margin-bottom: 15px;
+    }
+}
+
+
+.header-top-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header-top-area .left {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: #fff;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.header-top-area .left li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.header-top-area .left i {
+    color: #ff6b35;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social-icons li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: #ff6b35;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-icons li a:hover {
+    background: #fff;
+    color: #ff6b35;
+}
+
+/* Header Bottom Section */
+.header-bottom {
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.menu li a.active, .menu li a:hover {
+    color: #ff6b35;
+}
+
+/* Download App Button */
+.signup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: #ff6b35;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.signup:hover {
+    background: #fff;
+    color: #ff6b35;
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .header-holder {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .brand-logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .header-menu-part {
+        align-items: center;
+        width: 100%;
+    }
+    
+    .header-top-area {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .menu-area {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-top-area .left {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .brand-logo .logo img {
+        max-height: 50px;
+    }
+}
+
+/* Hide mobile logo since we're using the main logo */
+.mobile-logo {
+    display: none !important;
+}
+
+
+.preloader {
+    background: #1a1a4a !important;
+    opacity: .95;
+}
+
+.header-wrapper .menu-area .login, .header-wrapper .menu-area .signup {
+    display: none;
+}
+
+.default-button.menu-button {
+    background: #ff6b35;
+    color: #fff;
+    border: 1px solid #ff6b35;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+@media (min-width: 991px) {
+    .header-wrapper .menu-area .login, .header-wrapper .menu-area .signup {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-top {
+        display: block !important;
+    }
+    .brand-logo {
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .header-top-area .left {
+        display: none;
+    }
+    .header-top-area .social-icons {
+        border-top: 2px solid rgba(255, 255, 255, .1);
+    }
+    .header-wrapper {
+        padding: 0 0 15px;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+    .menu li a {
+        padding: 15px 25px;
+    }
+}
