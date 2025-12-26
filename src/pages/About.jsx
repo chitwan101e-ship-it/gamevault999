@@ -7,12 +7,68 @@ const highlights = [
 ]
 
 const pillars = [
-  { icon: '💎', title: 'Mobile-first design', copy: 'Platform designed for mobile devices with responsive interface and touch controls.' },
-  { icon: '🛰️', title: 'Platform availability', copy: 'Mobile app accessible on iOS and Android devices for users in supported regions.' },
-  { icon: '🛡️', title: 'Security measures', copy: 'Platform implements security protocols and user verification processes.' },
-  { icon: '🤝', title: 'Support channels', copy: 'Customer support available through messaging platforms like Telegram, WhatsApp, and Signal.' },
-  { icon: '📈', title: 'Platform features', copy: 'Includes account management tools, game categories, and user interface options.' },
-  { icon: '🚀', title: 'Game updates', copy: 'Platform may add new games and features over time as part of regular updates.' },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+      </svg>
+    ),
+    title: 'Mobile-first design', 
+    copy: 'Platform designed for mobile devices with responsive interface and touch controls.',
+    gradient: 'from-cyan-400 to-blue-600'
+  },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        <circle cx="12" cy="12" r="3" fill="currentColor" opacity="0.3"/>
+      </svg>
+    ),
+    title: 'Platform availability', 
+    copy: 'Mobile app accessible on iOS and Android devices for users in supported regions.',
+    gradient: 'from-purple-400 to-indigo-600'
+  },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+      </svg>
+    ),
+    title: 'Security measures', 
+    copy: 'Platform implements security protocols and user verification processes.',
+    gradient: 'from-blue-400 to-cyan-600'
+  },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/>
+        <path d="M7 9h10v2H7zm0-3h10v2H7zm0 6h7v2H7z" fill="currentColor" opacity="0.7"/>
+      </svg>
+    ),
+    title: 'Support channels', 
+    copy: 'Customer support available through messaging platforms like Telegram, WhatsApp, and Signal.',
+    gradient: 'from-amber-400 to-yellow-600'
+  },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+      </svg>
+    ),
+    title: 'Platform features', 
+    copy: 'Includes account management tools, game categories, and user interface options.',
+    gradient: 'from-emerald-400 to-green-600'
+  },
+  { 
+    icon: (
+      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M2.81 14.12L5.64 11.3l-1.42-1.42L1.39 12.7c-.39.39-.39 1.02 0 1.41l2.83 2.83c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41l-1.42-1.41zM22.61 11.3l-2.83-2.83c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41l1.42 1.42-2.83 2.83 1.42 1.42c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41l-1.42-1.41zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+      </svg>
+    ),
+    title: 'Game updates', 
+    copy: 'Platform may add new games and features over time as part of regular updates.',
+    gradient: 'from-pink-400 to-rose-600'
+  },
 ]
 
 function About() {
@@ -89,11 +145,25 @@ function About() {
             <h2 className="text-3xl md:text-4xl font-bold">Key aspects of the GameVault999 platform.</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {pillars.map((item) => (
-              <div key={item.title} className="glass-panel rounded-3xl p-6 border border-white/10 hover:border-white/20 transition">
-                <div className="text-3xl mb-3">{item.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-300">{item.copy}</p>
+            {pillars.map((item, index) => (
+              <div 
+                key={item.title} 
+                className="group relative glass-panel rounded-3xl p-6 md:p-8 border border-white/10 hover:border-white/20 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              >
+                {/* Icon Container - Square with rounded corners */}
+                <div className={`relative mb-6 w-16 h-16 rounded-2xl bg-gradient-to-br ${item.gradient} flex items-center justify-center shadow-lg group-hover:scale-110 group-hover:shadow-xl transition-all duration-300`}>
+                  <div className="text-white">
+                    {item.icon}
+                  </div>
+                  {/* Subtle glow effect */}
+                  <div className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${item.gradient} opacity-50 blur-md -z-10 group-hover:opacity-75 transition-opacity duration-300`} />
+                </div>
+                
+                {/* Content */}
+                <div className="relative space-y-3">
+                  <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{item.title}</h3>
+                  <p className="text-gray-300 leading-relaxed text-sm md:text-base">{item.copy}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -167,4 +237,3 @@ function About() {
 }
 
 export default About
-

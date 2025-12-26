@@ -127,105 +127,127 @@ function Home() {
         </div>
       </section>
 
-      {/* What is GameVault999 */}
-      <section className="section-padding">
+      {/* About GameVault999 */}
+      <section className="section-padding bg-gradient-to-br from-[#0b1024] via-[#0f1428] to-[#0b1024]">
         <div className="container-custom max-w-4xl mx-auto">
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-500/20 to-cyan-500/20 border border-pink-500/30 flex items-center justify-center">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-500/20 to-cyan-500/20 border border-pink-500/30 flex items-center justify-center shadow-lg shadow-pink-500/20">
               <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold">What is GameVault999?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">About GameVault999</h2>
           </div>
-          <div className="space-y-4 text-gray-200 leading-relaxed">
-            <p>
-              GameVault999 is a mobile gaming platform that offers casino-style entertainment experiences. The platform provides access to various game types including slot-style games, fish shooting games, and table-style games through a mobile application.
+          <div className="space-y-4">
+            <p className="text-gray-200 leading-relaxed text-lg">
+              <span className="font-semibold text-white">GameVault999</span> is a mobile gaming platform offering casino-style entertainment through iOS and Android apps. The platform features slot games, fish shooting games, and table-style games optimized for mobile devices.
             </p>
-            <p>
-              This website is an independent informational resource and is not affiliated with, owned by, or operated by GameVault999. We provide educational content to help users understand the platform, its features, and how to access it. Our goal is to offer transparent, helpful information for those interested in learning more about GameVault999.
-            </p>
-            <p>
-              The platform operates through a mobile app that users can download and install on their devices. It uses a credit-based system where users can participate in various gaming activities. The platform is designed primarily for mobile use, making it accessible to users who prefer gaming on smartphones and tablets.
+            <p className="text-gray-200 leading-relaxed text-lg">
+              The platform uses a credit-based system where users download the app, create an account, and access gaming activities designed for smartphones and tablets.
             </p>
           </div>
         </div>
       </section>
 
       {/* How GameVault999 Works */}
-      <section className="section-padding bg-[#0b1024]/70">
-        <div className="container-custom max-w-4xl mx-auto">
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center">
-              <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold">How GameVault999 Works</h2>
+      <section className="section-padding bg-[#0b1024]/70 relative overflow-hidden">
+        {/* Background Image with Gradient Overlay */}
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <div className="absolute right-0 top-0 bottom-0 w-full lg:w-1/2 flex items-center justify-end">
+            <img 
+              src="/images/characters/bull.png" 
+              alt="" 
+              className="h-full w-full lg:w-auto object-cover lg:object-contain opacity-40"
+            />
           </div>
-          <div className="space-y-6">
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-cyan-500/30 transition">
-              <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">📥</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">Step 1: Download the Application</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    Users begin by downloading the GameVault999 mobile application. The app is typically available through the platform's official download channels. Installation follows standard mobile app installation procedures for iOS and Android devices.
-                  </p>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0b1024]/85 via-[#0b1024]/70 to-transparent"></div>
+        </div>
+        
+        <div className="container-custom max-w-4xl mx-auto relative z-10">
+          <div className="space-y-4">
+            <div className="flex items-center gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center">
+                <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold">How GameVault999 Works</h2>
+            </div>
+            <div className="space-y-4">
+              <div className="rounded-2xl p-5 border border-cyan-500/30 hover:border-cyan-500/50 transition">
+                <div className="flex gap-3 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-2">Step 1: Download the Application</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
+                      Download the GameVault999 mobile app through the platform's official channels. Installation follows standard procedures for iOS and Android devices.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-pink-500/30 transition">
-              <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-pink-500/10 border border-pink-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">👤</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">Step 2: Account Creation</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    After installation, users create an account by providing basic registration information. This typically includes creating a username, setting up login credentials, and completing any required verification steps.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-amber-500/30 transition">
-              <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">💳</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">Step 3: Understanding the Credit System</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    GameVault999 operates using a credit-based system. Users obtain credits through the platform's designated methods, which may vary. Credits are used to participate in games and activities within the platform.
-                  </p>
+              <div className="rounded-2xl p-5 border border-pink-500/30 hover:border-pink-500/50 transition">
+                <div className="flex gap-3 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-2">Step 2: Account Creation</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
+                      Create an account by providing basic registration information, including a username and login credentials. Complete any required verification steps.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-purple-500/30 transition">
-              <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-purple-500/10 border border-purple-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">🎮</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">Step 4: Accessing Games</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    Once set up, users can browse and access various games available on the platform. The interface typically displays different game categories and allows users to select games they wish to play.
-                  </p>
+              <div className="rounded-2xl p-5 border border-amber-500/30 hover:border-amber-500/50 transition">
+                <div className="flex gap-3 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-2">Step 3: Understanding the Credit System</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
+                      GameVault999 uses a credit-based system. Users obtain credits through designated methods and use them to participate in games and activities.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-green-500/30 transition">
-              <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-green-500/10 border border-green-500/30 flex items-center justify-center flex-shrink-0">
-                  <span className="text-2xl">🧭</span>
+              <div className="rounded-2xl p-5 border border-purple-500/30 hover:border-purple-500/50 transition">
+                <div className="flex gap-3 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-purple-500/10 border border-purple-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-2">Step 4: Accessing Games</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
+                      Browse and access various games available on the platform. The interface displays different game categories for easy selection.
+                    </p>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold mb-3">Step 5: Platform Navigation</h3>
-                  <p className="text-gray-200 leading-relaxed">
-                    The platform includes various features such as game rooms, user profiles, and account management tools. Users navigate through these features using the app's interface, which is designed for mobile use.
-                  </p>
+              </div>
+              <div className="rounded-2xl p-5 border border-green-500/30 hover:border-green-500/50 transition">
+                <div className="flex gap-3 items-start">
+                  <div className="w-10 h-10 rounded-lg bg-green-500/10 border border-green-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-lg font-semibold mb-2">Step 5: Platform Navigation</h3>
+                    <p className="text-gray-200 text-sm leading-relaxed">
+                      Navigate through features like game rooms, user profiles, and account management tools using the mobile-optimized interface.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -233,61 +255,63 @@ function Home() {
         </div>
       </section>
 
-      {/* Types of Games Available */}
-      <section className="section-padding">
-        <div className="container-custom max-w-4xl mx-auto">
-          <div className="flex items-center gap-4 mb-6">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500/20 to-orange-500/20 border border-amber-500/30 flex items-center justify-center">
-              <svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      {/* GameVault999 Top Features */}
+      <section className="section-padding bg-gradient-to-br from-[#0b1024] via-[#0f1428] to-[#0b1024]">
+        <div className="container-custom max-w-6xl mx-auto">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-500/20 to-cyan-500/20 border border-pink-500/30 flex items-center justify-center shadow-lg shadow-pink-500/20">
+              <svg className="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold">Types of Games Available</h2>
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">GameVault999 Top Features</h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-amber-500/30 transition group">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center">
-                  <span className="text-xl">🎰</span>
-                </div>
-                <h3 className="text-xl font-semibold">Slot-Style Games</h3>
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="flex flex-col items-center text-center group">
+              <div className="w-24 h-24 mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src="/images/characters/fish.png" alt="HD Games" className="w-full h-full object-contain" />
               </div>
-              <p className="text-gray-200 leading-relaxed">
-                The platform offers various slot-style games with different themes, graphics, and gameplay mechanics. These games typically feature spinning reels and various symbols, similar to traditional slot machine experiences adapted for mobile play.
+              <h3 className="text-xl font-semibold text-white mb-2">HD Games</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Smooth visuals and fast load times on modern devices.
               </p>
             </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-cyan-500/30 transition group">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center">
-                  <span className="text-xl">🐟</span>
-                </div>
-                <h3 className="text-xl font-semibold">Fish and Arcade Games</h3>
+            <div className="flex flex-col items-center text-center group">
+              <div className="w-24 h-24 mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src="/images/characters/support.png" alt="Customer Support" className="w-full h-full object-contain" />
               </div>
-              <p className="text-gray-200 leading-relaxed">
-                Fish shooting games are a popular category on the platform. These games involve aiming and shooting at targets, often with colorful graphics and interactive elements. They provide an arcade-style gaming experience.
+              <h3 className="text-xl font-semibold text-white mb-2">Customer Support 24/7</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Support 24/7 on Facebook, Telegram & WhatsApp.
               </p>
             </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-green-500/30 transition group">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-green-500/10 border border-green-500/30 flex items-center justify-center">
-                  <span className="text-xl">🃏</span>
-                </div>
-                <h3 className="text-xl font-semibold">Table-Style Games</h3>
+            <div className="flex flex-col items-center text-center group">
+              <div className="w-24 h-24 mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src="/images/characters/prizes.png" alt="Daily Offers" className="w-full h-full object-contain" />
               </div>
-              <p className="text-gray-200 leading-relaxed">
-                The platform may include table-style games that simulate traditional casino table game experiences. These games are adapted for mobile play and offer various gameplay options for users who enjoy this style of entertainment.
+              <h3 className="text-xl font-semibold text-white mb-2">Daily offers and rewards</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Unlock bonuses, events, and loyalty perks.
               </p>
             </div>
-            <div className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-pink-500/30 transition group">
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center">
-                  <span className="text-xl">🎁</span>
-                </div>
-                <h3 className="text-xl font-semibold">Jackpot Features</h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex flex-col items-center text-center group">
+              <div className="w-24 h-24 mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src="/images/characters/big-win.png" alt="Verified Payments" className="w-full h-full object-contain" />
               </div>
-              <p className="text-gray-200 leading-relaxed">
-                Some games on the platform include jackpot-style features. These features may display progressive amounts or special game mechanics. The specific mechanics and features vary by individual game.
+              <h3 className="text-xl font-semibold text-white mb-2">Verified agent payments</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Buy credits safely through verified agents.
+              </p>
+            </div>
+            <div className="flex flex-col items-center text-center group">
+              <div className="w-24 h-24 mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <img src="/images/characters/mummy.png" alt="Secure Credit System" className="w-full h-full object-contain" />
+              </div>
+              <h3 className="text-xl font-semibold text-white mb-2">Secure credit system</h3>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Transactions are protected and monitored.
               </p>
             </div>
           </div>
@@ -312,31 +336,48 @@ function Home() {
             <div className="grid md:grid-cols-2 gap-4">
               <div className="glass-panel rounded-xl p-4 border border-white/10">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-2xl">🎯</span>
+                  <div className="w-8 h-8 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <circle cx="12" cy="12" r="8" strokeWidth="2"/>
+                      <circle cx="12" cy="12" r="4" strokeWidth="2"/>
+                      <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                      <path d="M12 2l2 2-2 2-2-2 2-2z" strokeWidth="1.5" stroke="currentColor" fill="currentColor" opacity="0.6"/>
+                    </svg>
+                  </div>
                   <strong>Entertainment-focused users:</strong>
                 </div>
-                <p className="text-sm ml-10">Individuals looking for mobile gaming experiences for entertainment purposes.</p>
+                <p className="text-sm ml-11">Individuals looking for mobile gaming experiences for entertainment purposes.</p>
               </div>
               <div className="glass-panel rounded-xl p-4 border border-white/10">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-2xl">📱</span>
+                  <div className="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                    </svg>
+                  </div>
                   <strong>Mobile-first players:</strong>
                 </div>
-                <p className="text-sm ml-10">Users who prefer gaming on smartphones and tablets rather than desktop computers.</p>
+                <p className="text-sm ml-11">Users who prefer gaming on smartphones and tablets rather than desktop computers.</p>
               </div>
               <div className="glass-panel rounded-xl p-4 border border-white/10">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-2xl">🇺🇸</span>
+                  <div className="w-8 h-8 rounded-lg bg-gray-500/10 border border-gray-500/30 flex items-center justify-center flex-shrink-0">
+                    <span className="text-xs font-bold text-white">US</span>
+                  </div>
                   <strong>USA audience:</strong>
                 </div>
-                <p className="text-sm ml-10">The platform is accessible to users in the United States, though users should verify local regulations and platform availability in their specific location.</p>
+                <p className="text-sm ml-11">The platform is accessible to users in the United States, though users should verify local regulations and platform availability in their specific location.</p>
               </div>
               <div className="glass-panel rounded-xl p-4 border border-white/10">
                 <div className="flex items-center gap-3 mb-2">
-                  <span className="text-2xl">🎲</span>
+                  <div className="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/30 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-purple-400" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18C6.67 18 6 17.33 6 16.5S6.67 15 7.5 15 9 15.67 9 16.5 8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4.5c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6 18 6.67 18 7.5 17.33 9 16.5 9zm0 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                    </svg>
+                  </div>
                   <strong>Casino-style game enthusiasts:</strong>
                 </div>
-                <p className="text-sm ml-10">Users interested in casino-style gaming experiences adapted for mobile devices.</p>
+                <p className="text-sm ml-11">Users interested in casino-style gaming experiences adapted for mobile devices.</p>
               </div>
             </div>
             <p className="pt-4">
@@ -361,10 +402,12 @@ function Home() {
             Explore our comprehensive guides to learn more about GameVault999:
           </p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link to="/about" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-purple-500/30 transition block group">
+            <Link to="/about" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-orange-500/30 transition block group">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-purple-500/10 border border-purple-500/30 flex items-center justify-center group-hover:scale-110 transition">
-                  <span className="text-xl">📋</span>
+                <div className="w-10 h-10 rounded-lg bg-orange-500/10 border border-orange-500/30 flex items-center justify-center group-hover:scale-110 transition">
+                  <svg className="w-5 h-5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
                 </div>
                 <h3 className="text-xl font-semibold">GameVault999 Review</h3>
               </div>
@@ -375,7 +418,9 @@ function Home() {
             <Link to="/games" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-cyan-500/30 transition block group">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center group-hover:scale-110 transition">
-                  <span className="text-xl">⬇️</span>
+                  <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
                 </div>
                 <h3 className="text-xl font-semibold">How to Download GameVault999 (USA)</h3>
               </div>
@@ -383,10 +428,12 @@ function Home() {
                 Step-by-step instructions for downloading and installing the app in the United States.
               </p>
             </Link>
-            <Link to="/contact" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-green-500/30 transition block group">
+            <Link to="/contact" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-amber-500/30 transition block group">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 rounded-lg bg-green-500/10 border border-green-500/30 flex items-center justify-center group-hover:scale-110 transition">
-                  <span className="text-xl">🔐</span>
+                <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center group-hover:scale-110 transition">
+                  <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
                 </div>
                 <h3 className="text-xl font-semibold">GameVault999 Login Guide</h3>
               </div>
@@ -397,7 +444,9 @@ function Home() {
             <Link to="/faq" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-amber-500/30 transition block group">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center group-hover:scale-110 transition">
-                  <span className="text-xl">⚖️</span>
+                  <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+                  </svg>
                 </div>
                 <h3 className="text-xl font-semibold">Is GameVault999 Legal in the USA?</h3>
               </div>
@@ -412,7 +461,7 @@ function Home() {
       {/* Responsible Gaming Notice */}
       <section className="section-padding bg-[#0b1024]/70">
         <div className="container-custom max-w-4xl mx-auto">
-          <div className="flex items-center gap-4 mb-6">
+          <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500/20 to-indigo-500/20 border border-blue-500/30 flex items-center justify-center">
               <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -420,40 +469,68 @@ function Home() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold">Responsible Gaming Notice</h2>
           </div>
-          <div className="glass-panel rounded-2xl p-6 border border-white/10 space-y-4 text-gray-200 leading-relaxed">
-            <div className="flex gap-3 items-start">
-              <span className="text-2xl flex-shrink-0">🎯</span>
-              <div>
-                <p className="font-semibold mb-1">Entertainment Only:</p>
-                <p>All gaming activities on GameVault999 and similar platforms should be viewed as entertainment activities only. There are no guarantees of outcomes, and users should never spend more than they can afford to lose.</p>
+          <div className="space-y-6 text-gray-200 leading-relaxed">
+            <div className="flex gap-4 items-start">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center">
+                <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <circle cx="12" cy="12" r="8"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+                  <path d="M12 4l1 1M12 20l1-1M4 12l1-1M20 12l-1-1M7.05 7.05l.7.7M16.25 16.25l.7.7M7.05 16.95l.7-.7M16.25 7.75l.7-.7" strokeWidth="1.5"/>
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold mb-2 text-white">Entertainment Only:</p>
+                <p className="text-gray-300">All gaming activities on GameVault999 and similar platforms should be viewed as entertainment activities only. There are no guarantees of outcomes, and users should never spend more than they can afford to lose.</p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-2xl flex-shrink-0">⏰</span>
-              <div>
-                <p className="font-semibold mb-1">Responsible Play:</p>
-                <p>We encourage all users to practice responsible gaming habits. This includes setting time limits, budget limits, and recognizing when to take breaks. Gaming should never interfere with daily responsibilities, relationships, or financial obligations.</p>
+            <div className="flex gap-4 items-start">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-pink-500/10 border border-pink-500/30 flex items-center justify-center">
+                <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M12 6v6l4 2" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold mb-2 text-white">Responsible Play:</p>
+                <p className="text-gray-300">We encourage all users to practice responsible gaming habits. This includes setting time limits, budget limits, and recognizing when to take breaks. Gaming should never interfere with daily responsibilities, relationships, or financial obligations.</p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-2xl flex-shrink-0">⚖️</span>
-              <div>
-                <p className="font-semibold mb-1">Legal Awareness:</p>
-                <p>Users in the United States should be aware of their local and state laws regarding online gaming activities. Laws vary by jurisdiction, and it is the user's responsibility to understand and comply with applicable regulations in their area.</p>
+            <div className="flex gap-4 items-start">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center">
+                <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path d="M9 12h6M12 9v6M12 2L2 7v10l10 5 10-5V7L12 2z"/>
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold mb-2 text-white">Legal Awareness:</p>
+                <p className="text-gray-300">Users in the United States should be aware of their local and state laws regarding online gaming activities. Laws vary by jurisdiction, and it is the user's responsibility to understand and comply with applicable regulations in their area.</p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-2xl flex-shrink-0">🔞</span>
-              <div>
-                <p className="font-semibold mb-1">Age Restrictions:</p>
-                <p>Gaming platforms are intended for users who are of legal age in their jurisdiction. Users must verify that they meet age requirements before engaging with any gaming platform.</p>
+            <div className="flex gap-4 items-start">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-red-500/10 border border-red-500/30 flex items-center justify-center">
+                <svg className="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.15"/>
+                  <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <text x="12" y="16" textAnchor="middle" fontSize="7" fill="currentColor" fontWeight="bold">18</text>
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold mb-2 text-white">Age Restrictions:</p>
+                <p className="text-gray-300">Gaming platforms are intended for users who are of legal age in their jurisdiction. Users must verify that they meet age requirements before engaging with any gaming platform.</p>
               </div>
             </div>
-            <div className="flex gap-3 items-start">
-              <span className="text-2xl flex-shrink-0">🆘</span>
-              <div>
-                <p className="font-semibold mb-1">Seek Help if Needed:</p>
-                <p>If you or someone you know is experiencing problems with gaming activities, resources are available. Organizations such as the National Council on Problem Gambling (1-800-522-4700) provide support and information.</p>
+            <div className="flex gap-4 items-start">
+              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-red-500/10 border border-red-500/30 flex items-center justify-center">
+                <svg className="w-5 h-5 text-red-400" fill="currentColor" viewBox="0 0 24 24">
+                  <rect x="4" y="4" width="16" height="16" rx="2" fill="currentColor" opacity="0.15"/>
+                  <rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" strokeWidth="2"/>
+                  <text x="12" y="15" textAnchor="middle" fontSize="5.5" fill="currentColor" fontWeight="bold" letterSpacing="1">SOS</text>
+                </svg>
+              </div>
+              <div className="flex-1">
+                <p className="font-semibold mb-2 text-white">Seek Help if Needed:</p>
+                <p className="text-gray-300">If you or someone you know is experiencing problems with gaming activities, resources are available. Organizations such as the National Council on Problem Gambling (1-800-522-4700) provide support and information.</p>
               </div>
             </div>
           </div>
