@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const gameImages = Array.from({ length: 24 }, (_, i) => i + 1)
 
@@ -11,7 +12,21 @@ const categories = [
 
 function Games() {
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>GameVault999 Games: Available Titles & Categories | USA Guide</title>
+        <meta name="title" content="GameVault999 Games: Available Titles & Categories | USA Guide" />
+        <meta name="description" content="Explore GameVault999 games including slots, fish games, and table-style games. Browse available titles and game categories for mobile gaming." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/games" />
+        <meta property="og:title" content="GameVault999 Games: Available Titles & Categories" />
+        <meta property="og:description" content="Explore GameVault999 games including slots, fish games, and table-style games available on the mobile platform." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/games" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="GameVault999 Games: Available Titles & Categories" />
+        <meta name="twitter:description" content="Explore GameVault999 games including slots, fish games, and table-style games." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Hero */}
       <section className="section-padding relative overflow-hidden pt-12 md:pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1024] via-[#0f1d3f] to-[#0b1024]" />
@@ -23,7 +38,7 @@ function Games() {
               GameVault999 Games: Available Titles and Categories
             </h1>
             <p className="text-lg text-gray-200">
-              The platform offers various game types including slots, fish games, and table-style games designed for mobile play.
+              The platform offers various game types including slots, fish games, and table-style games designed for mobile play. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">the platform features</Link> and <Link to="/faq" className="text-cyan-400 hover:text-cyan-300 underline">how to get started</Link>.
             </p>
             <div className="flex flex-wrap gap-3">
               <a
@@ -113,7 +128,7 @@ function Games() {
               >
                 <img
                   src={`/images/games/${num.toString().padStart(2, '0')}.png`}
-                  alt={`Game ${num}`}
+                  alt={`GameVault999 game ${num} - Available on mobile platform`}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
@@ -158,6 +173,7 @@ function Games() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

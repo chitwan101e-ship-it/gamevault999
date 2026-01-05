@@ -1,3 +1,6 @@
+import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
+
 function Contact() {
   const channels = [
     {
@@ -31,7 +34,21 @@ function Contact() {
   ]
 
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>Contact GameVault999: Support Channels & Help | USA Guide</title>
+        <meta name="title" content="Contact GameVault999: Support Channels & Help | USA Guide" />
+        <meta name="description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Messenger. Find support channels and contact information for USA users." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/contact" />
+        <meta property="og:title" content="Contact GameVault999: Support Channels & Help" />
+        <meta property="og:description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Messenger messaging platforms." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/contact" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="Contact GameVault999: Support Channels & Help" />
+        <meta name="twitter:description" content="Contact GameVault999 support through messaging platforms like WhatsApp, Telegram, and Signal." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Hero */}
       <section className="section-padding relative overflow-hidden pt-12 md:pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1024] via-[#0f1d3f] to-[#0b1024]" />
@@ -40,7 +57,7 @@ function Contact() {
           <span className="neon-pill inline-flex justify-center">Contact information</span>
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">GameVault999 Support and Contact Channels</h1>
           <p className="text-lg text-gray-200">
-            Information about how to contact GameVault999 support through available messaging platforms.
+            Information about how to contact GameVault999 support through available messaging platforms. For common questions, check our <Link to="/faq" className="text-cyan-400 hover:text-cyan-300 underline">FAQ page</Link>, or learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">the platform</Link>.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a
@@ -89,6 +106,7 @@ function Contact() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

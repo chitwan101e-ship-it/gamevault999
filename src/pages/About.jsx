@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 const highlights = [
   { label: 'Platform users', detail: 'Mobile gaming platform with various game types available' },
@@ -73,7 +74,21 @@ const pillars = [
 
 function About() {
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>About GameVault999: Platform Overview & Features | USA Guide</title>
+        <meta name="title" content="About GameVault999: Platform Overview & Features | USA Guide" />
+        <meta name="description" content="Learn about the GameVault999 mobile gaming platform, its features, game types, and how it works. Independent educational guide for USA users." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/about" />
+        <meta property="og:title" content="About GameVault999: Platform Overview & Features" />
+        <meta property="og:description" content="Learn about the GameVault999 mobile gaming platform, its features, game types, and how it works for USA users." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/about" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="About GameVault999: Platform Overview & Features" />
+        <meta name="twitter:description" content="Learn about the GameVault999 mobile gaming platform, its features, and how it works." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Hero */}
       <section className="section-padding relative overflow-hidden pt-12 md:pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1024] via-[#0f1d3f] to-[#0b1024]" />
@@ -85,7 +100,7 @@ function About() {
               Understanding the GameVault999 Platform
             </h1>
             <p className="text-lg text-gray-200 leading-relaxed">
-              This independent guide provides information about GameVault999, a mobile gaming platform that offers various casino-style entertainment experiences. Learn about the platform's features, game types, and how it operates.
+              This independent guide provides information about GameVault999, a mobile gaming platform that offers various casino-style entertainment experiences. Learn about the platform's features, <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">game types</Link>, and how it operates. For common questions, visit our <Link to="/faq" className="text-cyan-400 hover:text-cyan-300 underline">FAQ page</Link>.
             </p>
             <div className="flex flex-wrap gap-3">
               <a
@@ -233,6 +248,7 @@ function About() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

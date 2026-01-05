@@ -1,6 +1,23 @@
+import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
+
 function TermsAndConditions() {
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>Terms & Conditions: GameVault999 Platform Terms | USA Guide</title>
+        <meta name="title" content="Terms & Conditions: GameVault999 Platform Terms | USA Guide" />
+        <meta name="description" content="Information about GameVault999 terms and conditions, user responsibilities, and platform policies. Independent educational resource about platform terms." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/terms-and-conditions" />
+        <meta property="og:title" content="Terms & Conditions: GameVault999 Platform Terms" />
+        <meta property="og:description" content="Information about GameVault999 terms and conditions, user responsibilities, and platform policies." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/terms-and-conditions" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="Terms & Conditions: GameVault999 Platform Terms" />
+        <meta name="twitter:description" content="Information about GameVault999 terms and conditions and platform policies." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Page Header */}
       <section className="section-padding relative overflow-hidden pt-12 md:pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1024] via-[#0f1d3f] to-[#0b1024]" />
@@ -61,6 +78,7 @@ function TermsAndConditions() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

@@ -1,11 +1,26 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import { Helmet } from 'react-helmet-async'
 
 function Home() {
   const [isMuted, setIsMuted] = useState(true)
 
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>GameVault999 USA Guide: How It Works, Games, and Getting Started</title>
+        <meta name="title" content="GameVault999 USA Guide: How It Works, Games, and Getting Started" />
+        <meta name="description" content="Independent educational guide to GameVault999 for U.S. users. Learn how the platform works, what games are available, and where to find download and login help." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/" />
+        <meta property="og:title" content="GameVault999 USA Guide: How It Works & Getting Started" />
+        <meta property="og:description" content="Independent educational guide to GameVault999 for U.S. users: how it works, available games, and helpful links for download and login." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="GameVault999 USA Guide: How It Works & Getting Started" />
+        <meta name="twitter:description" content="Independent educational guide to GameVault999 for U.S. users: how it works, games, and download/login help." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Hero Section with Video Background */}
       <section className="relative overflow-hidden pt-12 pb-12 md:pt-16 md:pb-16 lg:pt-20 lg:pb-20">
         <div className="absolute inset-0 z-0">
@@ -140,10 +155,10 @@ function Home() {
           </div>
           <div className="space-y-4">
             <p className="text-gray-200 leading-relaxed text-lg">
-              <span className="font-semibold text-white">GameVault999</span> is a mobile gaming platform offering casino-style entertainment through iOS and Android apps. The platform features slot games, fish shooting games, and table-style games optimized for mobile devices.
+              <span className="font-semibold text-white">GameVault999</span> is a mobile gaming platform offering casino-style entertainment through iOS and Android apps. The platform features <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">slot games, fish shooting games, and table-style games</Link> optimized for mobile devices.
             </p>
             <p className="text-gray-200 leading-relaxed text-lg">
-              The platform uses a credit-based system where users download the app, create an account, and access gaming activities designed for smartphones and tablets.
+              The platform uses a credit-based system where users download the app, create an account, and access gaming activities designed for smartphones and tablets. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">how the platform operates</Link> and what features are available.
             </p>
           </div>
         </div>
@@ -156,7 +171,7 @@ function Home() {
           <div className="absolute right-0 top-0 bottom-0 w-full lg:w-1/2 flex items-center justify-end">
             <img 
               src="/images/characters/bull.png" 
-              alt="" 
+              alt="GameVault999 platform illustration" 
               className="h-full w-full lg:w-auto object-cover lg:object-contain opacity-40"
             />
           </div>
@@ -331,7 +346,7 @@ function Home() {
           </div>
           <div className="space-y-4 text-gray-200 leading-relaxed">
             <p>
-              GameVault999 is designed for users who enjoy mobile gaming entertainment. The platform may appeal to:
+              GameVault999 is designed for users who enjoy mobile gaming entertainment. The platform may appeal to those interested in <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">mobile gaming experiences</Link> and <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">casino-style entertainment</Link>. The platform may appeal to:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="glass-panel rounded-xl p-4 border border-white/10">
@@ -570,6 +585,7 @@ function Home() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

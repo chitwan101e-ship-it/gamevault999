@@ -1,6 +1,23 @@
+import { Helmet } from 'react-helmet-async'
+import { Link } from 'react-router-dom'
+
 function PrivacyPolicy() {
   return (
-    <div className="relative">
+    <>
+      <Helmet>
+        <title>Privacy Policy: GameVault999 Data Handling | USA Guide</title>
+        <meta name="title" content="Privacy Policy: GameVault999 Data Handling | USA Guide" />
+        <meta name="description" content="Information about GameVault999 privacy practices, data collection, and security measures. Independent educational resource about platform privacy policies." />
+        <link rel="canonical" href="https://www.gamevault99.xyz/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy: GameVault999 Data Handling" />
+        <meta property="og:description" content="Information about GameVault999 privacy practices, data collection, and security measures." />
+        <meta property="og:url" content="https://www.gamevault99.xyz/privacy-policy" />
+        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:title" content="Privacy Policy: GameVault999 Data Handling" />
+        <meta name="twitter:description" content="Information about GameVault999 privacy practices and data handling." />
+        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+      </Helmet>
+      <div className="relative">
       {/* Page Header */}
       <section className="section-padding relative overflow-hidden pt-12 md:pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0b1024] via-[#0f1d3f] to-[#0b1024]" />
@@ -47,13 +64,14 @@ function PrivacyPolicy() {
             <div>
               <h3 className="text-2xl font-semibold text-white mb-3">Contacting the Platform</h3>
               <p>
-                For questions about GameVault999's privacy policy, users should contact GameVault999 directly through their official support channels. See our Contact page for available support options.
+                For questions about GameVault999's privacy policy, users should contact GameVault999 directly through their official support channels. See our <Link to="/contact" className="text-cyan-400 hover:text-cyan-300 underline">Contact page</Link> for available support options.
               </p>
             </div>
           </div>
         </div>
       </section>
     </div>
+    </>
   )
 }
 

@@ -24,7 +24,7 @@ function Header() {
               <div className="absolute inset-0 rounded-full blur-xl bg-pink-500/30 group-hover:scale-110 transition" />
               <img
                 src="/images/logo/logo.png"
-                alt="Game Vault Logo"
+                alt="GameVault999 Logo - Mobile Gaming Platform USA Guide"
                 className="relative h-12 w-12 md:h-14 md:w-14 rounded-full object-cover ring-2 ring-white/10 shadow-lg shadow-amber-500/25 bg-[#0a1024]"
               />
             </div>
