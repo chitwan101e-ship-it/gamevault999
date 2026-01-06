@@ -8,15 +8,15 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>GameVault999 Download Guide - iOS & Android Installation</title>
-        <meta name="description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
+        <title>GameVault999 Download & Install Guide (iOS + Android)</title>
+        <meta name="description" content="Download and install GameVault999 on iOS and Android. Step-by-step APK setup, login help, and troubleshooting in this independent user guide." />
         <link rel="canonical" href="https://www.gamevault99.xyz/" />
-        <meta property="og:title" content="GameVault999 Download Guide - iOS & Android Installation" />
-        <meta property="og:description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
+        <meta property="og:title" content="GameVault999 Download & Install Guide (iOS + Android)" />
+        <meta property="og:description" content="Download and install GameVault999 on iOS and Android. Step-by-step APK setup, login help, and troubleshooting in this independent user guide." />
         <meta property="og:url" content="https://www.gamevault99.xyz/" />
         <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
-        <meta name="twitter:title" content="GameVault999 Download Guide - iOS & Android Installation" />
-        <meta name="twitter:description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
+        <meta name="twitter:title" content="GameVault999 Download & Install Guide (iOS + Android)" />
+        <meta name="twitter:description" content="Download and install GameVault999 on iOS and Android. Step-by-step APK setup, login help, and troubleshooting in this independent user guide." />
         <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
       </Helmet>
       <div className="relative">
