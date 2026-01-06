@@ -14,7 +14,7 @@ function Footer() {
       {/* Floating Social Media Icons */}
       <div className="fixed right-6 bottom-6 z-50 flex flex-col gap-3">
         <a
-          href="https://t.me/gvvssupport2"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-gradient-to-br from-sky-400 to-sky-600 hover:from-sky-300 hover:to-sky-500 border-2 border-sky-300/50 flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg hover:shadow-sky-500/50 backdrop-blur-sm"
@@ -23,7 +23,7 @@ function Footer() {
           <img src="/images/social/svg-icons/telegram-white.svg" alt="Telegram" className="w-7 h-7" />
         </a>
         <a
-          href="https://wa.me/+85264386769"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 hover:from-emerald-300 hover:to-emerald-500 border-2 border-emerald-300/50 flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/50 backdrop-blur-sm"
@@ -32,7 +32,7 @@ function Footer() {
           <img src="/images/social/svg-icons/whatsapp-white.svg" alt="WhatsApp" className="w-7 h-7" />
         </a>
         <a
-          href="https://signal.me/#eu/JPBLGihdYBnMHy5e_-qVMfkK8xYqWgelHGZIQobHojBKNkHiwQdJ7JbmIo0uTm7p"
+          href="https://signal.me/#eu/H4dqi2VC7E_jEWZQSmddKK1oaARHUxxBPHZ3A_ygWoHK7Opj9L9Ktr3xIKwIxCvd"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-gradient-to-br from-indigo-400 to-indigo-600 hover:from-indigo-300 hover:to-indigo-500 border-2 border-indigo-300/50 flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg hover:shadow-indigo-500/50 backdrop-blur-sm"
@@ -41,13 +41,13 @@ function Footer() {
           <img src="/images/social/svg-icons/signal-white.svg" alt="Signal" className="w-7 h-7" />
         </a>
         <a
-          href="#"
+          href="https://www.facebook.com/people/Happy-Hour-Wheel-of-Fortune/61557285823755"
           target="_blank"
           rel="noopener noreferrer"
           className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 hover:from-blue-300 hover:to-blue-500 border-2 border-blue-300/50 flex items-center justify-center transition-all hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50 backdrop-blur-sm"
-          aria-label="Messenger"
+          aria-label="Facebook"
         >
-          <img src="/images/social/svg-icons/messenger-white.svg" alt="Messenger" className="w-7 h-7" />
+          <img src="/images/social/svg-icons/messenger-white.svg" alt="Facebook" className="w-7 h-7" />
         </a>
       </div>
 

@@ -6,29 +6,25 @@ function Contact() {
     {
       icon: '/images/social/svg-icons/whatsapp-white.svg',
       title: 'WhatsApp',
-      contact: '+852 64386769',
-      link: 'https://wa.me/+85264386769',
+      link: '#',
       accent: 'from-emerald-400/40 to-cyan-300/30',
     },
     {
       icon: '/images/social/svg-icons/telegram-white.svg',
       title: 'Telegram',
-      contact: '@gvvssupport2',
-      link: 'https://t.me/gvvssupport2',
+      link: '#',
       accent: 'from-sky-400/40 to-blue-500/30',
     },
     {
       icon: '/images/social/svg-icons/signal-white.svg',
       title: 'Signal',
-      contact: 'GameVault999',
-      link: 'https://signal.me/#eu/JPBLGihdYBnMHy5e_-qVMfkK8xYqWgelHGZIQobHojBKNkHiwQdJ7JbmIo0uTm7p',
+      link: 'https://signal.me/#eu/H4dqi2VC7E_jEWZQSmddKK1oaARHUxxBPHZ3A_ygWoHK7Opj9L9Ktr3xIKwIxCvd',
       accent: 'from-indigo-400/40 to-blue-500/30',
     },
     {
       icon: '/images/social/svg-icons/messenger-white.svg',
-      title: 'Messenger',
-      contact: 'GameVault999',
-      link: '#',
+      title: 'Facebook',
+      link: 'https://www.facebook.com/people/Happy-Hour-Wheel-of-Fortune/61557285823755',
       accent: 'from-fuchsia-400/40 to-pink-500/30',
     },
   ]
@@ -38,10 +34,10 @@ function Contact() {
       <Helmet>
         <title>Contact GameVault999: Support Channels & Help | USA Guide</title>
         <meta name="title" content="Contact GameVault999: Support Channels & Help | USA Guide" />
-        <meta name="description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Messenger. Find support channels and contact information for USA users." />
+        <meta name="description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Facebook. Find support channels and contact information for USA users." />
         <link rel="canonical" href="https://www.gamevault99.xyz/contact" />
         <meta property="og:title" content="Contact GameVault999: Support Channels & Help" />
-        <meta property="og:description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Messenger messaging platforms." />
+        <meta property="og:description" content="Contact GameVault999 support through WhatsApp, Telegram, Signal, and Facebook messaging platforms." />
         <meta property="og:url" content="https://www.gamevault99.xyz/contact" />
         <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content="Contact GameVault999: Support Channels & Help" />
@@ -60,22 +56,6 @@ function Contact() {
             Information about how to contact GameVault999 support through available messaging platforms. For common questions, check our <Link to="/faq" className="text-cyan-400 hover:text-cyan-300 underline">FAQ page</Link>, or learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">the platform</Link>.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="https://wa.me/+85264386769"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
-              WhatsApp support
-            </a>
-            <a
-              href="https://t.me/gvvssupport2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              Telegram support
-            </a>
           </div>
         </div>
       </section>
@@ -98,7 +78,6 @@ function Contact() {
                     <img src={channel.icon} alt={channel.title} className="w-12 h-12" />
                   </div>
                   <h6 className="text-xl font-semibold text-white">{channel.title}</h6>
-                  <p className="text-gray-200">{channel.contact}</p>
                 </div>
               </a>
             ))}

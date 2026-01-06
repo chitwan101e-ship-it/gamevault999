@@ -15,3 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 
+// Dispatch event for prerendering
+if (import.meta.env.PROD) {
+  setTimeout(() => {
+    document.dispatchEvent(new Event('render-event'))
+  }, 1000)
+}
