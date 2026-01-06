@@ -8,16 +8,15 @@ function Home() {
   return (
     <>
       <Helmet>
-        <title>GameVault999 USA Guide: How It Works, Games, and Getting Started</title>
-        <meta name="title" content="GameVault999 USA Guide: How It Works, Games, and Getting Started" />
-        <meta name="description" content="Independent educational guide to GameVault999 for U.S. users. Learn how the platform works, what games are available, and where to find download and login help." />
+        <title>GameVault999 Download Guide - iOS & Android Installation</title>
+        <meta name="description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
         <link rel="canonical" href="https://www.gamevault99.xyz/" />
-        <meta property="og:title" content="GameVault999 USA Guide: How It Works & Getting Started" />
-        <meta property="og:description" content="Independent educational guide to GameVault999 for U.S. users: how it works, available games, and helpful links for download and login." />
+        <meta property="og:title" content="GameVault999 Download Guide - iOS & Android Installation" />
+        <meta property="og:description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
         <meta property="og:url" content="https://www.gamevault99.xyz/" />
         <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
-        <meta name="twitter:title" content="GameVault999 USA Guide: How It Works & Getting Started" />
-        <meta name="twitter:description" content="Independent educational guide to GameVault999 for U.S. users: how it works, games, and download/login help." />
+        <meta name="twitter:title" content="GameVault999 Download Guide - iOS & Android Installation" />
+        <meta name="twitter:description" content="Complete guide to download and install GameVault999 on iOS and Android. Get step-by-step instructions for GameVault999 APK download, login help, and troubleshooting." />
         <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
       </Helmet>
       <div className="relative">
@@ -61,10 +60,10 @@ function Home() {
                 Independent Guide
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                GameVault999 USA: How the Platform Works
+                GameVault999: Gaming App for iOS & Android
               </h1>
               <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-                An independent, educational guide explaining GameVault999, available games, and how U.S. players get started.
+                Discover GameVault999 (Game Vault 999), a mobile gaming app. Download Game Vault 999 for iOS and Android, get the APK, and login to play online. Enjoy fish games, slots, and more.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <Link to="/about" className="btn-primary">
@@ -155,10 +154,13 @@ function Home() {
           </div>
           <div className="space-y-4">
             <p className="text-gray-200 leading-relaxed text-lg">
-              <span className="font-semibold text-white">GameVault999</span> is a mobile gaming platform offering casino-style entertainment through iOS and Android apps. The platform features <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">slot games, fish shooting games, and table-style games</Link> optimized for mobile devices.
+              <span className="font-semibold text-white">GameVault999</span> (also known as Game Vault 999) is a mobile gaming platform offering gaming experiences through iOS and Android apps. This GameVault game app features <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">slot games, fish games, and table-style games</Link> optimized for mobile devices. Whether you're searching for GameVault999 app or Game Vault 999 APK download, this platform provides mobile gaming entertainment.
             </p>
             <p className="text-gray-200 leading-relaxed text-lg">
-              The platform uses a credit-based system where users download the app, create an account, and access gaming activities designed for smartphones and tablets. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">how the platform operates</Link> and what features are available.
+              The GameVault999 app uses a secure credit-based system where users can download the app for iOS and Android. Create an account and access diverse gaming activities designed for smartphones and tablets. The platform provides an immersive gaming experience with high-quality graphics and smooth gameplay. Users can download the Game Vault 999 APK for Android or download for iOS. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">how the GameVault platform operates</Link> and what features are available in this comprehensive guide.
+            </p>
+            <p className="text-gray-200 leading-relaxed text-lg">
+              As one of the popular GameVault game apps available, GameVault999 combines mobile gaming technology with a user-friendly interface. The app is designed to work seamlessly on both iOS and Android platforms, ensuring that players can enjoy their favorite fish games and slot machines regardless of their device preference. To get started, see our <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android download guide</Link> or <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS download guide</Link> for installation instructions.
             </p>
           </div>
         </div>
@@ -197,9 +199,9 @@ function Home() {
                     </svg>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold mb-2">Step 1: Download the Application</h3>
+                    <h3 className="text-lg font-semibold mb-2">Step 1: Download the GameVault999 App</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      Download the GameVault999 mobile app through the platform's official channels. Installation follows standard procedures for iOS and Android devices.
+                      Download the GameVault999 app through the platform's official channels. The GameVault game app is available for both <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android devices</Link> and <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS devices</Link>. Installation follows standard procedures for mobile apps, ensuring a smooth setup process on your smartphone or tablet. If you encounter issues, see our <Link to="/troubleshooting" className="text-cyan-400 hover:text-cyan-300 underline">troubleshooting guide</Link>.
                     </p>
                   </div>
                 </div>
@@ -214,7 +216,7 @@ function Home() {
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Step 2: Account Creation</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      Create an account by providing basic registration information, including a username and login credentials. Complete any required verification steps.
+                      Create an account by providing basic registration information, including a username and login credentials. Complete any required verification steps. Need help accessing your account? Check our <Link to="/login" className="text-cyan-400 hover:text-cyan-300 underline">login help guide</Link>.
                     </p>
                   </div>
                 </div>
@@ -229,7 +231,7 @@ function Home() {
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Step 3: Understanding the Credit System</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      GameVault999 uses a credit-based system. Users obtain credits through designated methods and use them to participate in games and activities.
+                      The GameVault999 app uses a secure credit-based system. Users obtain credits through designated methods and use them to participate in various games including fish games, slots, and table games. This system enhances the overall gaming experience by providing seamless transactions.
                     </p>
                   </div>
                 </div>
@@ -243,9 +245,9 @@ function Home() {
                     </svg>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold mb-2">Step 4: Accessing Games</h3>
+                    <h3 className="text-lg font-semibold mb-2">Step 4: Accessing Games on GameVault999</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      Browse and access various games available on the platform. The interface displays different game categories for easy selection.
+                      Browse and access various games available on the GameVault999 app. The GameVault platform displays different game categories including fish games, slot games, and table games for easy selection. Each game is optimized for iOS and Android to provide the best gaming experience.
                     </p>
                   </div>
                 </div>
@@ -279,7 +281,7 @@ function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">GameVault999 Top Features</h2>
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">GameVault999 App Top Features</h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div className="flex flex-col items-center text-center group">
@@ -333,6 +335,58 @@ function Home() {
         </div>
       </section>
 
+      {/* Why Choose GameVault999 App */}
+      <section className="section-padding bg-gradient-to-br from-[#0b1024] via-[#0f1428] to-[#0b1024]">
+        <div className="container-custom max-w-6xl mx-auto">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 flex items-center justify-center">
+              <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold">Why Choose the GameVault999 App?</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-3 text-white">Premium Gaming Experience</h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                The GameVault999 app delivers an exceptional gaming experience with stunning graphics, smooth gameplay, and immersive sound effects. Whether you're playing fish games, slot machines, or table games, the GameVault platform ensures every session is engaging and entertaining.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The app is optimized for both iOS and Android devices, providing a seamless gaming experience across all mobile platforms. Game Vault 999 sets the standard for mobile gaming apps with its user-friendly interface and high-quality game selection.
+              </p>
+            </div>
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-3 text-white">Comprehensive Game Selection</h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                GameVault999 offers a diverse collection of games to suit every player's preference. From exciting fish games with colorful underwater themes to classic slot games and strategic table games, the GameVault game app has something for everyone.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                Each game on the GameVault999 platform is carefully selected to provide the best gaming experience possible. The app regularly updates its game library, ensuring players always have access to the latest and most popular titles in the mobile gaming world.
+              </p>
+            </div>
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-3 text-white">Cross-Platform Compatibility</h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                One of the standout features of the GameVault999 app is its compatibility with both iOS and Android devices. Whether you're using an iPhone, iPad, Android smartphone, or tablet, you can enjoy the full GameVault gaming experience without any limitations.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The GameVault platform is designed to work seamlessly across different screen sizes and operating systems. This cross-platform support ensures that all players, regardless of their device preference, can access and enjoy the GameVault game app.
+              </p>
+            </div>
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-3 text-white">Secure and Reliable Platform</h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                Security is a top priority for the GameVault999 app. The platform employs advanced security measures to protect user data and ensure safe transactions. Players can enjoy their gaming experience with confidence, knowing their information is protected.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed">
+                The GameVault999 app uses encrypted connections and secure payment processing to safeguard all user activities. Combined with 24/7 customer support, the GameVault platform provides a trustworthy and reliable gaming environment for all users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Who This Platform Is For */}
       <section className="section-padding bg-[#0b1024]/70">
         <div className="container-custom max-w-4xl mx-auto">
@@ -344,9 +398,9 @@ function Home() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold">Who This Platform Is For</h2>
           </div>
-          <div className="space-y-4 text-gray-200 leading-relaxed">
+            <div className="space-y-4 text-gray-200 leading-relaxed">
             <p>
-              GameVault999 is designed for users who enjoy mobile gaming entertainment. The platform may appeal to those interested in <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">mobile gaming experiences</Link> and <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">casino-style entertainment</Link>. The platform may appeal to:
+              The GameVault999 app is designed for users who enjoy mobile gaming entertainment. This GameVault game app may appeal to those interested in <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">mobile gaming experiences</Link> and <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">casino-style entertainment</Link>. Whether you're looking for the GameVault app, GameVault game, or GameVault999 for iOS and Android, this platform offers an exceptional gaming experience. The platform is ideal for:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="glass-panel rounded-xl p-4 border border-white/10">
@@ -402,6 +456,132 @@ function Home() {
         </div>
       </section>
 
+      {/* Download Game Vault 999 - iOS & Android */}
+      <section className="section-padding bg-gradient-to-br from-[#0b1024] via-[#0f1428] to-[#0b1024]">
+        <div className="container-custom max-w-6xl mx-auto">
+          <div className="flex items-center gap-4 mb-8">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-500/20 to-emerald-500/20 border border-green-500/30 flex items-center justify-center">
+              <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold">Download Game Vault 999: iOS & Android Guide</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-blue-500/20 border border-blue-500/30 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-white">GameVault999 Download for iOS</h3>
+              </div>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                To download Game Vault 999 for iOS, see our <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">complete iOS download guide</Link>. The GameVault999 app is compatible with iPhone and iPad devices running iOS 12.0 or later. The download process follows standard iOS app installation procedures.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                After downloading, follow the installation prompts and allow the necessary permissions to complete the setup. For detailed step-by-step instructions, visit our <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS installation guide</Link>.
+              </p>
+              <a href="https://download.gamevault999.com/" target="_blank" rel="noopener noreferrer" className="inline-block btn-primary">
+                Download for iOS
+              </a>
+            </div>
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-green-500/20 border border-green-500/30 flex items-center justify-center">
+                  <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-semibold text-white">GameVault999 Download for Android</h3>
+              </div>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                For Android users, see our <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android download guide</Link> to download Game Vault 999 APK. The GameVault999 app works on Android 6.0 and higher. You may need to enable installation from unknown sources in your device settings.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                The Game Vault 999 APK download file can be installed by following the on-screen instructions after downloading. For complete step-by-step instructions, visit our <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android installation guide</Link>.
+              </p>
+              <a href="https://download.gamevault999.com/" target="_blank" rel="noopener noreferrer" className="inline-block btn-primary">
+                Download for Android / APK
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Game Vault 999 Login Guide */}
+      <section className="section-padding bg-[#0b1024]/70">
+        <div className="container-custom max-w-4xl mx-auto">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 flex items-center justify-center">
+              <svg className="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+              </svg>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold">Game Vault 999 Login Guide</h2>
+          </div>
+          <div className="space-y-6">
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-4 text-white">How to Login to GameVault999</h3>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                To access your GameVault999 account, use the login feature within the app or visit our <Link to="/login" className="text-cyan-400 hover:text-cyan-300 underline">login help page</Link> for assistance. Users need their registered username and Game Vault 999 login password to access their account.
+              </p>
+              <p className="text-gray-300 text-sm leading-relaxed mb-4">
+                You can access the login portal directly through the app. Make sure you have your Game Vault 999 login password ready, and if you've forgotten it, use the password recovery feature. For complete login instructions and password help, see our <Link to="/login" className="text-cyan-400 hover:text-cyan-300 underline">login guide</Link>.
+              </p>
+              <div className="bg-white/5 rounded-xl p-4 border border-white/10">
+                <p className="text-sm font-semibold text-cyan-400 mb-2">Login Steps:</p>
+                <ol className="list-decimal list-inside space-y-2 text-gray-300 text-sm">
+                  <li>Open the GameVault999 app or visit the login page</li>
+                  <li>Enter your registered username</li>
+                  <li>Input your Game Vault 999 login password</li>
+                  <li>Click the login button to access your account</li>
+                </ol>
+              </div>
+            </div>
+            <div className="glass-panel rounded-2xl p-6 border border-white/10">
+              <h3 className="text-xl font-semibold mb-4 text-white">Game Vault 999 Login Password Help</h3>
+              <p className="text-gray-200 leading-relaxed">
+                If you've forgotten your Game Vault 999 login password, use the "Forgot Password" option on the login screen. You'll need to provide your registered email or username to reset your password. Follow the password reset instructions sent to your registered contact information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Play Online & Real Money */}
+      <section className="section-padding bg-gradient-to-br from-[#0b1024] via-[#0f1428] to-[#0b1024]">
+        <div className="container-custom max-w-4xl mx-auto">
+          <div className="flex items-center gap-4 mb-6">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500/20 to-orange-500/20 border border-amber-500/30 flex items-center justify-center">
+              <svg className="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold">Game Vault 999: Play Online</h2>
+          </div>
+          <div className="glass-panel rounded-2xl p-6 border border-white/10 mb-6">
+            <p className="text-gray-200 leading-relaxed mb-4">
+              Game Vault 999 allows users to play online through the mobile app. The platform offers various gaming activities including fish games, slots, and table games. Users searching for "Game Vault 999 play online real money" should note that the platform uses a credit-based system.
+            </p>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              The GameVault999 platform provides an online gaming experience accessible through the mobile app. Players can enjoy games with credits obtained through the platform's designated methods. Always play responsibly and within your means.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            <Link to="/games" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-cyan-500/30 transition block group">
+              <h3 className="text-lg font-semibold mb-2 text-white group-hover:text-cyan-400 transition">Browse Games</h3>
+              <p className="text-gray-300 text-sm">Explore all available games on GameVault999 platform</p>
+            </Link>
+            <Link to="/faq" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-amber-500/30 transition block group">
+              <h3 className="text-lg font-semibold mb-2 text-white group-hover:text-amber-400 transition">FAQ & Help</h3>
+              <p className="text-gray-300 text-sm">Get answers to common questions about Game Vault 999</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Internal Resources */}
       <section className="section-padding">
         <div className="container-custom max-w-4xl mx-auto">
@@ -413,8 +593,8 @@ function Home() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold">Helpful Resources</h2>
           </div>
-          <p className="text-gray-200 mb-6 leading-relaxed">
-            Explore our comprehensive guides to learn more about GameVault999:
+              <p className="text-gray-200 mb-6 leading-relaxed">
+            Explore our comprehensive guides to learn more about Game Vault 999, GameVault999 download options, login help, and more:
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <Link to="/about" className="glass-panel rounded-2xl p-6 border border-white/10 hover:border-orange-500/30 transition block group">
