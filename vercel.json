@@ -37,6 +37,22 @@
     {
       "source": "/terms-and-conditions",
       "destination": "/index.html"
+    },
+    {
+      "source": "/download/android",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/download/ios",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/troubleshooting",
+      "destination": "/index.html"
     }
   ]
 }
