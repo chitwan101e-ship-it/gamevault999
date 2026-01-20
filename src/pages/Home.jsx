@@ -154,13 +154,13 @@ function Home() {
           </div>
           <div className="space-y-4">
             <p className="text-gray-200 leading-relaxed text-lg">
-              <span className="font-semibold text-white">GameVault999</span> (also known as Game Vault 999) is a mobile gaming platform offering gaming experiences through iOS and Android apps. This GameVault game app features <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">slot games, fish games, and table-style games</Link> optimized for mobile devices. Whether you're searching for GameVault999 app or Game Vault 999 APK download, this platform provides mobile gaming entertainment.
+              <span className="font-semibold text-white">GameVault999</span> (also known as Game Vault 999) is a mobile gaming platform offering exceptional gaming experiences through iOS and Android apps. This mobile gaming app features <Link to="/games" className="text-cyan-400 hover:text-cyan-300 underline">slot games, fish games, and table-style games</Link> optimized for mobile devices. Whether you're searching for the Game Vault 999 app or need the APK download, this platform provides comprehensive mobile gaming entertainment.
             </p>
             <p className="text-gray-200 leading-relaxed text-lg">
-              The GameVault999 app uses a secure credit-based system where users can download the app for iOS and Android. Create an account and access diverse gaming activities designed for smartphones and tablets. The platform provides an immersive gaming experience with high-quality graphics and smooth gameplay. Users can download the Game Vault 999 APK for Android or download for iOS. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">how the GameVault platform operates</Link> and what features are available in this comprehensive guide.
+              The platform uses a secure credit-based system where users can download the app for iOS and Android devices. Create an account and access diverse gaming activities designed for smartphones and tablets. The platform delivers an immersive gaming experience with high-quality graphics and smooth gameplay. Users can download the APK for Android or install directly on iOS. Learn more about <Link to="/about" className="text-cyan-400 hover:text-cyan-300 underline">how the platform operates</Link> and what features are available in this comprehensive guide.
             </p>
             <p className="text-gray-200 leading-relaxed text-lg">
-              As one of the popular GameVault game apps available, GameVault999 combines mobile gaming technology with a user-friendly interface. The app is designed to work seamlessly on both iOS and Android platforms, ensuring that players can enjoy their favorite fish games and slot machines regardless of their device preference. To get started, see our <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android download guide</Link> or <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS download guide</Link> for installation instructions.
+              As one of the popular mobile gaming apps available, this platform combines advanced mobile gaming technology with a user-friendly interface. The app works seamlessly on both iOS and Android platforms. Players can enjoy their favorite fish games and slot machines regardless of their device preference. To get started, see our <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android download guide</Link> or <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS download guide</Link> for installation instructions.
             </p>
           </div>
         </div>
@@ -199,9 +199,9 @@ function Home() {
                     </svg>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold mb-2">Step 1: Download the GameVault999 App</h3>
+                    <h3 className="text-lg font-semibold mb-2">Step 1: Download the Mobile Gaming App</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      Download the GameVault999 app through the platform's official channels. The GameVault game app is available for both <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android devices</Link> and <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS devices</Link>. Installation follows standard procedures for mobile apps, ensuring a smooth setup process on your smartphone or tablet. If you encounter issues, see our <Link to="/troubleshooting" className="text-cyan-400 hover:text-cyan-300 underline">troubleshooting guide</Link>.
+                      Download the app through the platform's official channels. The mobile gaming application is available for both <Link to="/download/android" className="text-cyan-400 hover:text-cyan-300 underline">Android devices</Link> and <Link to="/download/ios" className="text-cyan-400 hover:text-cyan-300 underline">iOS devices</Link>. Installation follows standard procedures for mobile apps, ensuring a smooth setup process on your smartphone or tablet. If you encounter issues, see our <Link to="/troubleshooting" className="text-cyan-400 hover:text-cyan-300 underline">troubleshooting guide</Link>.
                     </p>
                   </div>
                 </div>
@@ -231,7 +231,7 @@ function Home() {
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Step 3: Understanding the Credit System</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      The GameVault999 app uses a secure credit-based system. Users obtain credits through designated methods and use them to participate in various games including fish games, slots, and table games. This system enhances the overall gaming experience by providing seamless transactions.
+                      The platform uses a secure credit-based system. Users obtain credits through designated methods and use them to participate in various games including fish games, slots, and table games. This system enhances the overall gaming experience by providing seamless transactions and secure payment processing.
                     </p>
                   </div>
                 </div>
@@ -245,9 +245,9 @@ function Home() {
                     </svg>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-lg font-semibold mb-2">Step 4: Accessing Games on GameVault999</h3>
+                    <h3 className="text-lg font-semibold mb-2">Step 4: Accessing Games on the Platform</h3>
                     <p className="text-gray-200 text-sm leading-relaxed">
-                      Browse and access various games available on the GameVault999 app. The GameVault platform displays different game categories including fish games, slot games, and table games for easy selection. Each game is optimized for iOS and Android to provide the best gaming experience.
+                      Browse and access various games available on the mobile app. The platform displays different game categories including fish games, slot games, and table games for easy selection. Each game is optimized for iOS and Android to provide the best gaming experience with smooth performance and engaging gameplay.
                     </p>
                   </div>
                 </div>
@@ -350,7 +350,7 @@ function Home() {
             <div className="glass-panel rounded-2xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-3 text-white">Premium Gaming Experience</h3>
               <p className="text-gray-200 leading-relaxed mb-4">
-                The GameVault999 app delivers an exceptional gaming experience with stunning graphics, smooth gameplay, and immersive sound effects. Whether you're playing fish games, slot machines, or table games, the GameVault platform ensures every session is engaging and entertaining.
+                The mobile gaming platform delivers an exceptional gaming experience with stunning graphics, smooth gameplay, and immersive sound effects. Whether you're playing fish games, slot machines, or table games, the platform ensures every session is engaging and entertaining. The gaming experience is designed to be intuitive and enjoyable for players of all skill levels.
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 The app is optimized for both iOS and Android devices, providing a seamless gaming experience across all mobile platforms. Game Vault 999 sets the standard for mobile gaming apps with its user-friendly interface and high-quality game selection.
@@ -359,16 +359,16 @@ function Home() {
             <div className="glass-panel rounded-2xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-3 text-white">Comprehensive Game Selection</h3>
               <p className="text-gray-200 leading-relaxed mb-4">
-                GameVault999 offers a diverse collection of games to suit every player's preference. From exciting fish games with colorful underwater themes to classic slot games and strategic table games, the GameVault game app has something for everyone.
+                The platform offers a diverse collection of games to suit every player's preference. From exciting fish games with colorful underwater themes to classic slot games and strategic table games, the mobile gaming app has something for everyone. Explore different game vault options to find your favorite gaming experience.
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
-                Each game on the GameVault999 platform is carefully selected to provide the best gaming experience possible. The app regularly updates its game library, ensuring players always have access to the latest and most popular titles in the mobile gaming world.
+                Each game on the platform is carefully selected to provide the best gaming experience possible. The app regularly updates its game library, ensuring players always have access to the latest and most popular titles in the mobile gaming world. This commitment to quality enhances the overall gaming experience for all users.
               </p>
             </div>
             <div className="glass-panel rounded-2xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-3 text-white">Cross-Platform Compatibility</h3>
               <p className="text-gray-200 leading-relaxed mb-4">
-                One of the standout features of the GameVault999 app is its compatibility with both iOS and Android devices. Whether you're using an iPhone, iPad, Android smartphone, or tablet, you can enjoy the full GameVault gaming experience without any limitations.
+                One of the standout features of the mobile gaming app is its compatibility with both iOS and Android devices. Whether you're using an iPhone, iPad, Android smartphone, or tablet, you can enjoy the full gaming experience without any limitations. The cross-platform support ensures a consistent gaming experience across all devices.
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
                 The GameVault platform is designed to work seamlessly across different screen sizes and operating systems. This cross-platform support ensures that all players, regardless of their device preference, can access and enjoy the GameVault game app.
@@ -377,10 +377,10 @@ function Home() {
             <div className="glass-panel rounded-2xl p-6 border border-white/10">
               <h3 className="text-xl font-semibold mb-3 text-white">Secure and Reliable Platform</h3>
               <p className="text-gray-200 leading-relaxed mb-4">
-                Security is a top priority for the GameVault999 app. The platform employs advanced security measures to protect user data and ensure safe transactions. Players can enjoy their gaming experience with confidence, knowing their information is protected.
+                Security is a top priority for the mobile gaming platform. The platform employs advanced security measures to protect user data and ensure safe transactions. Players can enjoy their gaming experience with confidence, knowing their information is protected. The secure environment enhances the overall gaming experience.
               </p>
               <p className="text-gray-300 text-sm leading-relaxed">
-                The GameVault999 app uses encrypted connections and secure payment processing to safeguard all user activities. Combined with 24/7 customer support, the GameVault platform provides a trustworthy and reliable gaming environment for all users.
+                The platform uses encrypted connections and secure payment processing to safeguard all user activities. Combined with 24/7 customer support, the mobile gaming platform provides a trustworthy and reliable gaming environment for all users. This commitment to security and support creates a positive gaming experience.
               </p>
             </div>
           </div>
