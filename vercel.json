@@ -32,14 +32,14 @@
   ],
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "www.gamevault99.xyz"
         }
       ],
-      "destination": "https://gamevault99.xyz/:1",
+      "destination": "https://gamevault99.xyz/:path*",
       "permanent": true
     }
   ],
