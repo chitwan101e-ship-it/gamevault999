@@ -14,10 +14,10 @@ function DownloadIos() {
         <meta property="og:title" content={meta.ogTitle} />
         <meta property="og:description" content={meta.ogDescription} />
         <meta property="og:url" content={meta.canonical} />
-        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta property="og:image" content="https://gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content={meta.twitterTitle} />
         <meta name="twitter:description" content={meta.twitterDescription} />
-        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gamevault99.xyz/og-image.png" />
       </Helmet>
 
       <div className="relative">

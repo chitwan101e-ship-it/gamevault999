@@ -8,14 +8,14 @@ function PrivacyPolicy() {
         <title>Privacy Policy: GameVault999 Data Handling | USA Guide</title>
         <meta name="title" content="Privacy Policy: GameVault999 Data Handling | USA Guide" />
         <meta name="description" content="Information about GameVault999 privacy practices, data collection, and security measures. Independent educational resource about platform privacy policies." />
-        <link rel="canonical" href="https://www.gamevault99.xyz/privacy-policy" />
+        <link rel="canonical" href="https://gamevault99.xyz/privacy-policy" />
         <meta property="og:title" content="Privacy Policy: GameVault999 Data Handling" />
         <meta property="og:description" content="Information about GameVault999 privacy practices, data collection, and security measures." />
-        <meta property="og:url" content="https://www.gamevault99.xyz/privacy-policy" />
-        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta property="og:url" content="https://gamevault99.xyz/privacy-policy" />
+        <meta property="og:image" content="https://gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content="Privacy Policy: GameVault999 Data Handling" />
         <meta name="twitter:description" content="Information about GameVault999 privacy practices and data handling." />
-        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gamevault99.xyz/og-image.png" />
       </Helmet>
       <div className="relative">
       {/* Page Header */}

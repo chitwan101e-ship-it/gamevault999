@@ -17,14 +17,14 @@ function Games() {
         <title>GameVault999 Games: Available Titles & Categories | USA Guide</title>
         <meta name="title" content="GameVault999 Games: Available Titles & Categories | USA Guide" />
         <meta name="description" content="Explore GameVault999 games including slots, fish games, and table-style games. Browse available titles and game categories for mobile gaming." />
-        <link rel="canonical" href="https://www.gamevault99.xyz/games" />
+        <link rel="canonical" href="https://gamevault99.xyz/games" />
         <meta property="og:title" content="GameVault999 Games: Available Titles & Categories" />
         <meta property="og:description" content="Explore GameVault999 games including slots, fish games, and table-style games available on the mobile platform." />
-        <meta property="og:url" content="https://www.gamevault99.xyz/games" />
-        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta property="og:url" content="https://gamevault99.xyz/games" />
+        <meta property="og:image" content="https://gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content="GameVault999 Games: Available Titles & Categories" />
         <meta name="twitter:description" content="Explore GameVault999 games including slots, fish games, and table-style games." />
-        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gamevault99.xyz/og-image.png" />
       </Helmet>
       <div className="relative">
       {/* Hero */}

@@ -30,6 +30,19 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.gamevault99.xyz"
+        }
+      ],
+      "destination": "https://gamevault99.xyz/:1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/about",

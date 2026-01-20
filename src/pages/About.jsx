@@ -79,14 +79,14 @@ function About() {
         <title>About GameVault999: Platform Overview & Features | USA Guide</title>
         <meta name="title" content="About GameVault999: Platform Overview & Features | USA Guide" />
         <meta name="description" content="Learn about the GameVault999 mobile gaming platform, its features, game types, and how it works. Independent educational guide for USA users." />
-        <link rel="canonical" href="https://www.gamevault99.xyz/about" />
+        <link rel="canonical" href="https://gamevault99.xyz/about" />
         <meta property="og:title" content="About GameVault999: Platform Overview & Features" />
         <meta property="og:description" content="Learn about the GameVault999 mobile gaming platform, its features, game types, and how it works for USA users." />
-        <meta property="og:url" content="https://www.gamevault99.xyz/about" />
-        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta property="og:url" content="https://gamevault99.xyz/about" />
+        <meta property="og:image" content="https://gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content="About GameVault999: Platform Overview & Features" />
         <meta name="twitter:description" content="Learn about the GameVault999 mobile gaming platform, its features, and how it works." />
-        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gamevault99.xyz/og-image.png" />
       </Helmet>
       <div className="relative">
       {/* Hero */}

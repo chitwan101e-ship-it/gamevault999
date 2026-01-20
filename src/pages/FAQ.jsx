@@ -112,14 +112,14 @@ function FAQ() {
         <title>GameVault999 FAQ: Common Questions Answered | USA Guide</title>
         <meta name="title" content="GameVault999 FAQ: Common Questions Answered | USA Guide" />
         <meta name="description" content="Frequently asked questions about GameVault999: how to download, safety, credit system, games, and support. Get answers to common questions about the platform." />
-        <link rel="canonical" href="https://www.gamevault99.xyz/faq" />
+        <link rel="canonical" href="https://gamevault99.xyz/faq" />
         <meta property="og:title" content="GameVault999 FAQ: Common Questions Answered" />
         <meta property="og:description" content="Frequently asked questions about GameVault999: download, safety, credit system, games, and support information." />
-        <meta property="og:url" content="https://www.gamevault99.xyz/faq" />
-        <meta property="og:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta property="og:url" content="https://gamevault99.xyz/faq" />
+        <meta property="og:image" content="https://gamevault99.xyz/og-image.png" />
         <meta name="twitter:title" content="GameVault999 FAQ: Common Questions Answered" />
         <meta name="twitter:description" content="Frequently asked questions about GameVault999 platform, download, and support." />
-        <meta name="twitter:image" content="https://www.gamevault99.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gamevault99.xyz/og-image.png" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
